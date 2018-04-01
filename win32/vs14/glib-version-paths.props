@@ -11,7 +11,7 @@
     <PythonDir Condition="'$(VisualStudioVersion)' == '10.0'">c:\python34</PythonDir>
     <PythonDir Condition="'$(VisualStudioVersion)' == '11.0'">c:\python34</PythonDir>
     <PythonDir Condition="'$(VisualStudioVersion)' == '12.0'">c:\python34</PythonDir>
-    <PythonDir Condition="'$(VisualStudioVersion)' == '14.0'">c:\python36</PythonDir>
+    <PythonDir Condition="'$(VisualStudioVersion)' == '14.0'">$(PYTHON)</PythonDir>
     <PythonDir Condition="'$(VisualStudioVersion)' == '15.0'">c:\python36</PythonDir>
   </PropertyGroup>
   <PropertyGroup>

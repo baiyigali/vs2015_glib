@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -96,7 +96,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\gio;..\..\gmodule;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\workspace\vs14\x64\proxy-libintl-dev_20100902_win64\include;..\..\gio;..\..\gmodule;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_DEBUG;$(GioInBuildMacro);%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -115,6 +115,7 @@
       </DataExecutionPrevention>
       <ProgramDatabaseFile>$(OutDir)gio.pdb</ProgramDatabaseFile>
       <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>F:\workspace\vs14\x64\proxy-libintl-dev_20100902_win64\lib;$(GlibEtcInstallRoot)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -164,23 +165,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-   <ClCompile Include="..\..\gio\gio-tool.c" />
-   <ClCompile Include="..\..\gio\gio-tool-cat.c" />
-   <ClCompile Include="..\..\gio\gio-tool-copy.c" />
-   <ClCompile Include="..\..\gio\gio-tool-info.c" />
-   <ClCompile Include="..\..\gio\gio-tool-list.c" />
-   <ClCompile Include="..\..\gio\gio-tool-mime.c" />
-   <ClCompile Include="..\..\gio\gio-tool-mkdir.c" />
-   <ClCompile Include="..\..\gio\gio-tool-monitor.c" />
-   <ClCompile Include="..\..\gio\gio-tool-mount.c" />
-   <ClCompile Include="..\..\gio\gio-tool-move.c" />
-   <ClCompile Include="..\..\gio\gio-tool-open.c" />
-   <ClCompile Include="..\..\gio\gio-tool-rename.c" />
-   <ClCompile Include="..\..\gio\gio-tool-remove.c" />
-   <ClCompile Include="..\..\gio\gio-tool-save.c" />
-   <ClCompile Include="..\..\gio\gio-tool-set.c" />
-   <ClCompile Include="..\..\gio\gio-tool-trash.c" />
-   <ClCompile Include="..\..\gio\gio-tool-tree.c" />
+    <ClCompile Include="..\..\gio\gio-tool.c" />
+    <ClCompile Include="..\..\gio\gio-tool-cat.c" />
+    <ClCompile Include="..\..\gio\gio-tool-copy.c" />
+    <ClCompile Include="..\..\gio\gio-tool-info.c" />
+    <ClCompile Include="..\..\gio\gio-tool-list.c" />
+    <ClCompile Include="..\..\gio\gio-tool-mime.c" />
+    <ClCompile Include="..\..\gio\gio-tool-mkdir.c" />
+    <ClCompile Include="..\..\gio\gio-tool-monitor.c" />
+    <ClCompile Include="..\..\gio\gio-tool-mount.c" />
+    <ClCompile Include="..\..\gio\gio-tool-move.c" />
+    <ClCompile Include="..\..\gio\gio-tool-open.c" />
+    <ClCompile Include="..\..\gio\gio-tool-rename.c" />
+    <ClCompile Include="..\..\gio\gio-tool-remove.c" />
+    <ClCompile Include="..\..\gio\gio-tool-save.c" />
+    <ClCompile Include="..\..\gio\gio-tool-set.c" />
+    <ClCompile Include="..\..\gio\gio-tool-trash.c" />
+    <ClCompile Include="..\..\gio\gio-tool-tree.c" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="gio.vcxproj">
