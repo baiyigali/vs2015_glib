@@ -1,0 +1,240 @@
+﻿  Copying config.h from config.h.win32...
+          1 file(s) copied.
+  Copying glibconfig.h from glibconfig.h.win32...
+          1 file(s) copied.
+cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+  vasnprintf.c
+f:\workspace\glib-2.56.0\glib\gnulib\vasnprintf.c(1904): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+f:\workspace\glib-2.56.0\glib\gnulib\vasnprintf.c(1907): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+f:\workspace\glib-2.56.0\glib\gnulib\vasnprintf.c(2423): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+f:\workspace\glib-2.56.0\glib\gnulib\vasnprintf.c(2672): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gnulib\vasnprintf.c(4629): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+f:\workspace\glib-2.56.0\glib\gnulib\vasnprintf.c(5287): warning C4018: '>=': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gnulib\vasnprintf.c(5378): warning C4018: '>': signed/unsigned mismatch
+  printf.c
+  printf-parse.c
+  printf-args.c
+  asnprintf.c
+  gwin32.c
+f:\workspace\glib-2.56.0\glib\gwin32.c(542): warning C4018: '>': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gwin32.c(546): warning C4018: '>': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gwin32.c(614): warning C4996: 'GetVersion': was declared deprecated
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(110): note: see declaration of 'GetVersion'
+  gthread-win32.c
+f:\workspace\glib-2.56.0\glib\gthread-win32.c(374): warning C4022: '_InlineInterlockedCompareExchangePointer': pointer mismatch for actual parameter 2
+  gspawn-win32.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  giowin32.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  gprintf.c
+  gwakeup.c
+  gversion.c
+  gvarianttype.c
+f:\workspace\glib-2.56.0\glib\gvarianttype.c(1060): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gvarianttype.c(1092): warning C4018: '<': signed/unsigned mismatch
+  gvarianttypeinfo.c
+f:\workspace\glib-2.56.0\glib\gvarianttypeinfo.c(342): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gvarianttypeinfo.c(513): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  gvariant-serialiser.c
+f:\workspace\glib-2.56.0\glib\gvariant-serialiser.c(147): warning C4116: unnamed type definition in parentheses
+f:\workspace\glib-2.56.0\glib\gvariant-serialiser.c(149): warning C4116: unnamed type definition in parentheses
+f:\workspace\glib-2.56.0\glib\gvariant-serialiser.c(673): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+f:\workspace\glib-2.56.0\glib\gvariant-serialiser.c(708): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+f:\workspace\glib-2.56.0\glib\gvariant-serialiser.c(960): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  gvariant-parser.c
+f:\workspace\glib-2.56.0\glib\gvariant-parser.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+f:\workspace\glib-2.56.0\glib\gvariant-parser.c(1901): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+f:\workspace\glib-2.56.0\glib\gvariant-parser.c(1911): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+f:\workspace\glib-2.56.0\glib\gvariant-parser.c(1921): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+f:\workspace\glib-2.56.0\glib\gvariant-parser.c(1931): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+f:\workspace\glib-2.56.0\glib\gvariant-parser.c(2762): warning C4018: '>=': signed/unsigned mismatch
+  gvariant-core.c
+  gvariant.c
+f:\workspace\glib-2.56.0\glib\gvariant.c(831): warning C4090: 'function': different 'const' qualifiers
+f:\workspace\glib-2.56.0\glib\gvariant.c(1558): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gvariant.c(1694): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gvariant.c(1934): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gvariant.c(4872): warning C4090: 'return': different 'const' qualifiers
+f:\workspace\glib-2.56.0\glib\gvariant.c(4880): warning C4090: 'return': different 'const' qualifiers
+f:\workspace\glib-2.56.0\glib\gvariant.c(4888): warning C4090: 'return': different 'const' qualifiers
+  guuid.c
+f:\workspace\glib-2.56.0\glib\gi18n.h(23): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  gutils.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  Generating Code...
+f:\workspace\glib-2.56.0\glib\gvariant.c(2708): warning C4715: 'g_variant_hash': not all control paths return a value
+f:\workspace\glib-2.56.0\glib\gvariant.c(2884): warning C4715: 'g_variant_compare': not all control paths return a value
+f:\workspace\glib-2.56.0\glib\gvariant.c(5835): warning C4715: 'g_variant_deep_copy': not all control paths return a value
+f:\workspace\glib-2.56.0\glib\gvariant.c(4999): warning C4715: 'g_variant_valist_new_leaf': not all control paths return a value
+f:\workspace\glib-2.56.0\glib\gvariant.c(4840): warning C4715: 'g_variant_valist_new_nnp': not all control paths return a value
+f:\workspace\glib-2.56.0\glib\gvariant.c(4917): warning C4715: 'g_variant_valist_get_nnp': not all control paths return a value
+f:\workspace\glib-2.56.0\glib\gvariant-serialiser.c(1325): warning C4715: 'g_variant_serialised_n_children': not all control paths return a value
+f:\workspace\glib-2.56.0\glib\gvariant-serialiser.c(1441): warning C4715: 'g_variant_serialiser_needed_size': not all control paths return a value
+  Compiling...
+  gurifuncs.c
+  gunidecomp.c
+  gunicollate.c
+  gunibreak.c
+  gutf8.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  guniprop.c
+  gtree.c
+  gtrashstack.c
+  gtranslit.c
+  gtimezone.c
+f:\workspace\glib-2.56.0\glib\gtimezone.c(234): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gtimezone.c(675): warning C4018: '<=': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gtimezone.c(690): warning C4018: '>': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gtimezone.c(848): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gtimezone.c(867): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gtimezone.c(1193): warning C4018: '>': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gtimezone.c(1256): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gtimezone.c(1641): warning C4018: '<=': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gtimezone.c(1681): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gtimezone.c(1730): warning C4018: '<=': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gtimezone.c(1754): warning C4018: '<': signed/unsigned mismatch
+  gtimer.c
+  gthreadpool.c
+f:\workspace\glib-2.56.0\glib\gthreadpool.c(156): warning C4018: '>=': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gthreadpool.c(830): warning C4018: '<': signed/unsigned mismatch
+  gthread.c
+  gtestutils.c
+  gstringchunk.c
+  gstring.c
+f:\workspace\glib-2.56.0\glib\gstring.c(441): warning C4018: '<=': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gstring.c(458): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gstring.c(462): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gstring.c(464): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gstring.c(469): warning C4018: '>': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gstring.c(481): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gstring.c(782): warning C4018: '<=': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gstring.c(785): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gstring.c(857): warning C4018: '<=': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gstring.c(860): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gstring.c(969): warning C4018: '<=': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gstring.c(975): warning C4018: '<=': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gstring.c(977): warning C4018: '<': signed/unsigned mismatch
+  gstrfuncs.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  gstdio.c
+f:\workspace\glib-2.56.0\glib\gstdio.c(368): warning C4018: '<=': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gstdio.c(525): warning C4018: '>': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gstdio.c(570): warning C4018: '>': signed/unsigned mismatch
+  gslist.c
+  gslice.c
+f:\workspace\glib-2.56.0\glib\gslice.c(644): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+f:\workspace\glib-2.56.0\glib\gslice.c(1436): warning C4996: 'g_trash_stack_push': was declared deprecated
+  f:\workspace\glib-2.56.0\glib\gtrashstack.h(43): note: see declaration of 'g_trash_stack_push'
+f:\workspace\glib-2.56.0\glib\gslice.c(1439): warning C4996: 'g_trash_stack_pop': was declared deprecated
+  f:\workspace\glib-2.56.0\glib\gtrashstack.h(46): note: see declaration of 'g_trash_stack_pop'
+f:\workspace\glib-2.56.0\glib\gslice.c(1454): warning C4996: 'g_trash_stack_push': was declared deprecated
+  f:\workspace\glib-2.56.0\glib\gtrashstack.h(43): note: see declaration of 'g_trash_stack_push'
+  Generating Code...
+f:\workspace\glib-2.56.0\glib\gtestutils.c(3623): warning C4715: 'g_test_get_dir': not all control paths return a value
+  Compiling...
+  gshell.c
+f:\workspace\glib-2.56.0\glib\gshell.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  gsequence.c
+  gscanner.c
+  gregex.c
+f:\workspace\glib-2.56.0\glib\gregex.c(26): fatal error C1083: Cannot open include file: 'pcre.h': No such file or directory
+  grand.c
+f:\workspace\glib-2.56.0\glib\grand.c(412): warning C4018: '>=': signed/unsigned mismatch
+  gqueue.c
+f:\workspace\glib-2.56.0\glib\gqueue.c(372): warning C4018: '>=': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gqueue.c(475): warning C4018: '>=': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gqueue.c(761): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gqueue.c(767): warning C4018: '<': signed/unsigned mismatch
+  gquark.c
+f:\workspace\glib-2.56.0\glib\gquark.c(268): warning C4018: '<': signed/unsigned mismatch
+  gqsort.c
+  gprimes.c
+  gpoll.c
+  gpattern.c
+  goption.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  gnode.c
+  gmessages.c
+f:\workspace\glib-2.56.0\glib\gmessages.c(1608): warning C4068: unknown pragma
+f:\workspace\glib-2.56.0\glib\gmessages.c(1609): warning C4068: unknown pragma
+f:\workspace\glib-2.56.0\glib\gmessages.c(1915): warning C4068: unknown pragma
+  gmem.c
+  gmarkup.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  gmappedfile.c
+f:\workspace\glib-2.56.0\glib\gmappedfile.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  gmain.c
+  glist.c
+  glib-private.c
+  Generating Code...
+  Compiling...
+  glib-init.c
+f:\workspace\glib-2.56.0\glib\glib-init.c(61): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  gkeyfile.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  giochannel.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  ghostutils.c
+f:\workspace\glib-2.56.0\glib\ghostutils.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  ghook.c
+  ghmac.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  ghash.c
+f:\workspace\glib-2.56.0\glib\ghash.c(254): warning C4116: unnamed type definition in parentheses
+f:\workspace\glib-2.56.0\glib\ghash.c(1788): warning C4018: '<': signed/unsigned mismatch
+  ggettext.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  gfileutils.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  gerror.c
+  genviron.c
+  gdir.c
+f:\workspace\glib-2.56.0\glib\gdir.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  gdatetime.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  gdate.c
+f:\workspace\glib-2.56.0\glib\gdate.c(2537): warning C4018: '<=': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gdate.c(2582): warning C4068: unknown pragma
+f:\workspace\glib-2.56.0\glib\gdate.c(2583): warning C4068: unknown pragma
+f:\workspace\glib-2.56.0\glib\gdate.c(2696): warning C4068: unknown pragma
+  gdataset.c
+f:\workspace\glib-2.56.0\glib\gdataset.c(233): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gdataset.c(270): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\gdataset.c(1147): warning C4018: '<': signed/unsigned mismatch
+  gconvert.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  gchecksum.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  gcharset.c
+f:\workspace\glib-2.56.0\glib\gcharset.c(72): warning C4090: 'function': different 'const' qualifiers
+f:\workspace\glib-2.56.0\glib\gcharset.c(76): warning C4090: 'function': different 'const' qualifiers
+  gbytes.c
+  gbookmarkfile.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  Generating Code...
+  Compiling...
+  gbitlock.c
+  gbase64.c
+f:\workspace\glib-2.56.0\glib\glibintl.h(16): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+  gbacktrace.c
+  gatomic.c
+f:\workspace\glib-2.56.0\glib\gatomic.c(603): warning C4090: 'initializing': different 'volatile' qualifiers
+f:\workspace\glib-2.56.0\glib\gatomic.c(603): warning C4090: 'initializing': different 'const' qualifiers
+f:\workspace\glib-2.56.0\glib\gatomic.c(613): warning C4090: 'initializing': different 'volatile' qualifiers
+f:\workspace\glib-2.56.0\glib\gatomic.c(624): warning C4090: 'function': different 'volatile' qualifiers
+  gasyncqueue.c
+  garray.c
+f:\workspace\glib-2.56.0\glib\garray.c(776): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\garray.c(1162): warning C4018: '>': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\garray.c(1175): warning C4018: '<': signed/unsigned mismatch
+f:\workspace\glib-2.56.0\glib\garray.c(1433): warning C4018: '<': signed/unsigned mismatch
+  gthread-deprecated.c
+  grel.c
+  gcompletion.c
+  gcache.c
+  gallocator.c
+  Generating Code...

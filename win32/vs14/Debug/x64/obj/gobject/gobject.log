@@ -1,0 +1,47 @@
+﻿cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+  gvaluetypes.c
+  gvaluetransform.c
+  gvaluearray.c
+  gvalue.c
+  gtypeplugin.c
+  gtypemodule.c
+  gtype.c
+..\..\gobject\gtype.c(1106): warning C4267: '+=': conversion from 'size_t' to 'guint', possible loss of data
+..\..\gobject\gtype.c(1108): warning C4267: '+=': conversion from 'size_t' to 'guint', possible loss of data
+..\..\gobject\gtype.c(1380): warning C4018: '<': signed/unsigned mismatch
+..\..\gobject\gtype.c(1836): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\gobject\gtype.c(1841): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\gobject\gtype.c(1931): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\gobject\gtype.c(1932): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\gobject\gtype.c(2129): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\gobject\gtype.c(2140): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\gobject\gtype.c(4595): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\gobject\gtype.c(4700): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\gobject\gtype.c(4822): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\gobject\gtype.c(4855): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\gobject\gtype.c(4868): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  gsourceclosure.c
+  gsignal.c
+  gparamspecs.c
+  gparam.c
+  gobject.c
+..\..\gobject\gobject.c(715): warning C4018: '<': signed/unsigned mismatch
+..\..\gobject\gobject.c(1335): warning C4090: 'function': different 'const' qualifiers
+..\..\gobject\gobject.c(1342): warning C4090: 'function': different 'const' qualifiers
+..\..\gobject\gobject.c(1696): warning C4018: '<': signed/unsigned mismatch
+..\..\gobject\gobject.c(1774): warning C4018: '<': signed/unsigned mismatch
+..\..\gobject\gobject.c(1822): warning C4018: '<': signed/unsigned mismatch
+..\..\gobject\gobject.c(1849): warning C4018: '<': signed/unsigned mismatch
+..\..\gobject\gobject.c(4347): warning C4312: 'type cast': conversion from 'unsigned int' to 'void *' of greater size
+  gmarshal.c
+  genums.c
+  gclosure.c
+  gboxed.c
+  gbinding.c
+  gatomicarray.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(F:\workspace\glib-2.56.0\win32\vs14\Debug\x64\bin\gobject.dll) does not match the Linker's OutputFile property value (F:\workspace\glib-2.56.0\win32\vs14\Debug\x64\bin\gobject-2.0-0.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(gobject) does not match the Linker's OutputFile property value (gobject-2.0-0). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library F:\workspace\glib-2.56.0\win32\vs14\Debug\x64\bin\gobject-2.0.lib and object F:\workspace\glib-2.56.0\win32\vs14\Debug\x64\bin\gobject-2.0.exp
+  gobject.vcxproj -> F:\workspace\glib-2.56.0\win32\vs14\Debug\x64\bin\gobject.dll
+  gobject.vcxproj -> F:\workspace\glib-2.56.0\win32\vs14\Debug\x64\bin\gobject-2.0-0.pdb (Full PDB)

@@ -1,0 +1,305 @@
+﻿cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+  vasnprintf.c
+..\..\glib\gnulib\vasnprintf.c(1904): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+..\..\glib\gnulib\vasnprintf.c(1907): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+..\..\glib\gnulib\vasnprintf.c(1910): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\glib\gnulib\vasnprintf.c(1913): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\glib\gnulib\vasnprintf.c(2423): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\glib\gnulib\vasnprintf.c(4629): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  printf.c
+..\..\glib\gnulib\printf.c(98): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+..\..\glib\gnulib\printf.c(113): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+..\..\glib\gnulib\printf.c(133): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+..\..\glib\gnulib\printf.c(144): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  printf-parse.c
+  printf-args.c
+  asnprintf.c
+  gwin32.c
+..\..\glib\gwin32.c(542): warning C4018: '>': signed/unsigned mismatch
+..\..\glib\gwin32.c(546): warning C4018: '>': signed/unsigned mismatch
+..\..\glib\gwin32.c(614): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: see declaration of 'GetVersion'
+  gthread-win32.c
+..\..\glib\gthread-win32.c(338): warning C4311: 'type cast': pointer truncation from 'gpointer' to 'DWORD'
+..\..\glib\gthread-win32.c(343): warning C4311: 'type cast': pointer truncation from 'gpointer' to 'DWORD'
+..\..\glib\gthread-win32.c(374): warning C4022: '_InterlockedCompareExchangePointer': pointer mismatch for actual parameter 2
+..\..\glib\gthread-win32.c(540): warning C4133: 'function': incompatible types - from 'DWORD *' to 'const ULONG_PTR *'
+  gspawn-win32.c
+  giowin32.c
+  gprintf.c
+  gwakeup.c
+  gversion.c
+  gvarianttype.c
+  gvarianttypeinfo.c
+..\..\glib\gvarianttypeinfo.c(513): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  gvariant-serialiser.c
+..\..\glib\gvariant-serialiser.c(147): warning C4116: unnamed type definition in parentheses
+..\..\glib\gvariant-serialiser.c(149): warning C4116: unnamed type definition in parentheses
+..\..\glib\gvariant-serialiser.c(673): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\glib\gvariant-serialiser.c(708): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\glib\gvariant-serialiser.c(960): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  gvariant-parser.c
+..\..\glib\gvariant-parser.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+..\..\glib\gvariant-parser.c(320): warning C4267: 'initializing': conversion from 'size_t' to 'gint', possible loss of data
+..\..\glib\gvariant-parser.c(1901): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\glib\gvariant-parser.c(1911): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\glib\gvariant-parser.c(1921): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\glib\gvariant-parser.c(1931): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  gvariant-core.c
+  gvariant.c
+..\..\glib\gvariant.c(831): warning C4090: 'function': different 'const' qualifiers
+..\..\glib\gvariant.c(1558): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gvariant.c(1694): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gvariant.c(1934): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gvariant.c(4872): warning C4090: 'return': different 'const' qualifiers
+..\..\glib\gvariant.c(4880): warning C4090: 'return': different 'const' qualifiers
+..\..\glib\gvariant.c(4888): warning C4090: 'return': different 'const' qualifiers
+  guuid.c
+  gutils.c
+..\..\glib\gutils.c(264): warning C4267: 'initializing': conversion from 'size_t' to 'const gint', possible loss of data
+..\..\glib\gutils.c(1358): warning C4090: 'function': different 'const' qualifiers
+..\..\glib\gutils.c(1384): warning C4090: 'function': different 'const' qualifiers
+..\..\glib\gutils.c(2191): warning C4068: unknown pragma
+..\..\glib\gutils.c(2192): warning C4068: unknown pragma
+..\..\glib\gutils.c(2390): warning C4068: unknown pragma
+  Generating Code...
+f:\workspace\glib-2.56.0\glib\gvariant.c(2884): warning C4715: 'g_variant_compare': not all control paths return a value
+f:\workspace\glib-2.56.0\glib\gvariant.c(2708): warning C4715: 'g_variant_hash': not all control paths return a value
+f:\workspace\glib-2.56.0\glib\gvariant.c(5835): warning C4715: 'g_variant_deep_copy': not all control paths return a value
+f:\workspace\glib-2.56.0\glib\gvariant.c(4999): warning C4715: 'g_variant_valist_new_leaf': not all control paths return a value
+f:\workspace\glib-2.56.0\glib\gvariant.c(4840): warning C4715: 'g_variant_valist_new_nnp': not all control paths return a value
+f:\workspace\glib-2.56.0\glib\gvariant.c(4917): warning C4715: 'g_variant_valist_get_nnp': not all control paths return a value
+f:\workspace\glib-2.56.0\glib\gvariant-serialiser.c(1325): warning C4715: 'g_variant_serialised_n_children': not all control paths return a value
+f:\workspace\glib-2.56.0\glib\gvariant-serialiser.c(1441): warning C4715: 'g_variant_serialiser_needed_size': not all control paths return a value
+f:\workspace\glib-2.56.0\glib\giowin32.c(952): warning C4715: 'g_io_win32_check': not all control paths return a value
+  Compiling...
+  gurifuncs.c
+  gunidecomp.c
+  gunicollate.c
+  gunibreak.c
+  gutf8.c
+..\..\glib\gutf8.c(1259): warning C4267: '=': conversion from 'size_t' to 'glong', possible loss of data
+  guniprop.c
+..\..\glib\guniprop.c(771): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+  gtree.c
+  gtrashstack.c
+  gtranslit.c
+..\..\glib\gtranslit.c(201): warning C4267: '=': conversion from 'size_t' to 'guint', possible loss of data
+..\..\glib\gtranslit.c(207): warning C4267: '=': conversion from 'size_t' to 'guint', possible loss of data
+..\..\glib\gtranslit.c(217): warning C4267: '=': conversion from 'size_t' to 'guint', possible loss of data
+..\..\glib\gtranslit.c(224): warning C4267: '=': conversion from 'size_t' to 'guint', possible loss of data
+  gtimezone.c
+..\..\glib\gtimezone.c(234): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gtimezone.c(675): warning C4018: '<=': signed/unsigned mismatch
+..\..\glib\gtimezone.c(690): warning C4018: '>': signed/unsigned mismatch
+..\..\glib\gtimezone.c(848): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gtimezone.c(867): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gtimezone.c(1256): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gtimezone.c(1641): warning C4018: '<=': signed/unsigned mismatch
+..\..\glib\gtimezone.c(1681): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gtimezone.c(1730): warning C4018: '<=': signed/unsigned mismatch
+..\..\glib\gtimezone.c(1754): warning C4018: '<': signed/unsigned mismatch
+  gtimer.c
+  gthreadpool.c
+..\..\glib\gthreadpool.c(156): warning C4018: '>=': signed/unsigned mismatch
+..\..\glib\gthreadpool.c(830): warning C4018: '<': signed/unsigned mismatch
+  gthread.c
+  gtestutils.c
+..\..\glib\gtestutils.c(2293): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\..\glib\gtestutils.c(3339): warning C4267: 'initializing': conversion from 'size_t' to 'guint', possible loss of data
+  gstringchunk.c
+  gstring.c
+..\..\glib\gstring.c(153): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+..\..\glib\gstring.c(441): warning C4018: '<=': signed/unsigned mismatch
+..\..\glib\gstring.c(458): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gstring.c(462): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gstring.c(464): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gstring.c(469): warning C4018: '>': signed/unsigned mismatch
+..\..\glib\gstring.c(481): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gstring.c(782): warning C4018: '<=': signed/unsigned mismatch
+..\..\glib\gstring.c(785): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gstring.c(857): warning C4018: '<=': signed/unsigned mismatch
+..\..\glib\gstring.c(860): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gstring.c(969): warning C4018: '<=': signed/unsigned mismatch
+..\..\glib\gstring.c(975): warning C4018: '<=': signed/unsigned mismatch
+..\..\glib\gstring.c(977): warning C4018: '<': signed/unsigned mismatch
+  gstrfuncs.c
+..\..\glib\gstrfuncs.c(881): warning C4068: unknown pragma
+..\..\glib\gstrfuncs.c(882): warning C4068: unknown pragma
+..\..\glib\gstrfuncs.c(983): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\glib\gstrfuncs.c(993): warning C4068: unknown pragma
+..\..\glib\gstrfuncs.c(1173): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\glib\gstrfuncs.c(2704): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gstrfuncs.c(2914): warning C4566: character represented by universal-character-name '\u0131' cannot be represented in the current code page (936)
+..\..\glib\gstrfuncs.c(2914): warning C4566: character represented by universal-character-name '\u0130' cannot be represented in the current code page (936)
+..\..\glib\gstrfuncs.c(2925): warning C4566: character represented by universal-character-name '\u0131' cannot be represented in the current code page (936)
+..\..\glib\gstrfuncs.c(2926): warning C4566: character represented by universal-character-name '\u0130' cannot be represented in the current code page (936)
+  gstdio.c
+..\..\glib\gstdio.c(368): warning C4018: '<=': signed/unsigned mismatch
+  gslist.c
+  gslice.c
+..\..\glib\gslice.c(644): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\glib\gslice.c(1263): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+..\..\glib\gslice.c(1436): warning C4996: 'g_trash_stack_push': was declared deprecated
+  f:\workspace\glib-2.56.0\glib\gtrashstack.h(43): note: see declaration of 'g_trash_stack_push'
+..\..\glib\gslice.c(1439): warning C4996: 'g_trash_stack_pop': was declared deprecated
+  f:\workspace\glib-2.56.0\glib\gtrashstack.h(46): note: see declaration of 'g_trash_stack_pop'
+..\..\glib\gslice.c(1454): warning C4996: 'g_trash_stack_push': was declared deprecated
+  f:\workspace\glib-2.56.0\glib\gtrashstack.h(43): note: see declaration of 'g_trash_stack_push'
+  Generating Code...
+f:\workspace\glib-2.56.0\glib\gtestutils.c(3623): warning C4715: 'g_test_get_dir': not all control paths return a value
+  Compiling...
+  gshell.c
+..\..\glib\gshell.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+..\..\glib\gshell.c(581): warning C4129: '': unrecognized character escape sequence
+  gsequence.c
+  gscanner.c
+  gregex.c
+..\..\glib\gregex.c(566): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+..\..\glib\gregex.c(3137): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+  grand.c
+..\..\glib\grand.c(412): warning C4018: '>=': signed/unsigned mismatch
+  gqueue.c
+..\..\glib\gqueue.c(372): warning C4018: '>=': signed/unsigned mismatch
+..\..\glib\gqueue.c(475): warning C4018: '>=': signed/unsigned mismatch
+..\..\glib\gqueue.c(761): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gqueue.c(767): warning C4018: '<': signed/unsigned mismatch
+  gquark.c
+..\..\glib\gquark.c(268): warning C4018: '<': signed/unsigned mismatch
+  gqsort.c
+  gprimes.c
+  gpoll.c
+  gpattern.c
+..\..\glib\gpattern.c(264): warning C4267: '=': conversion from 'size_t' to 'guint', possible loss of data
+..\..\glib\gpattern.c(411): warning C4267: 'function': conversion from 'size_t' to 'guint', possible loss of data
+..\..\glib\gpattern.c(437): warning C4267: 'function': conversion from 'size_t' to 'guint', possible loss of data
+  goption.c
+..\..\glib\goption.c(913): warning C4090: 'function': different 'const' qualifiers
+..\..\glib\goption.c(1618): warning C4267: 'initializing': conversion from 'size_t' to 'gint', possible loss of data
+..\..\glib\goption.c(2062): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+  gnode.c
+  gmessages.c
+..\..\glib\gmessages.c(1560): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+..\..\glib\gmessages.c(1563): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+..\..\glib\gmessages.c(1569): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+..\..\glib\gmessages.c(1574): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+..\..\glib\gmessages.c(1579): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+..\..\glib\gmessages.c(1584): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+..\..\glib\gmessages.c(1587): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+..\..\glib\gmessages.c(1608): warning C4068: unknown pragma
+..\..\glib\gmessages.c(1609): warning C4068: unknown pragma
+..\..\glib\gmessages.c(1915): warning C4068: unknown pragma
+  gmem.c
+  gmarkup.c
+..\..\glib\gmarkup.c(774): warning C4018: '<=': signed/unsigned mismatch
+..\..\glib\gmarkup.c(2376): warning C4068: unknown pragma
+..\..\glib\gmarkup.c(2377): warning C4068: unknown pragma
+..\..\glib\gmarkup.c(2505): warning C4068: unknown pragma
+  gmappedfile.c
+..\..\glib\gmappedfile.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  gmain.c
+  glist.c
+  glib-private.c
+  Generating Code...
+  Compiling...
+  glib-init.c
+..\..\glib\glib-init.c(61): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  gkeyfile.c
+  giochannel.c
+..\..\glib\giochannel.c(892): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+..\..\glib\giochannel.c(2285): warning C4018: '<': signed/unsigned mismatch
+  ghostutils.c
+..\..\glib\ghostutils.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+..\..\glib\ghostutils.c(132): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\ghostutils.c(149): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\ghostutils.c(152): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\ghostutils.c(163): warning C4018: '<': signed/unsigned mismatch
+  ghook.c
+  ghmac.c
+  ghash.c
+..\..\glib\ghash.c(254): warning C4116: unnamed type definition in parentheses
+..\..\glib\ghash.c(1788): warning C4018: '<': signed/unsigned mismatch
+  ggettext.c
+  gfileutils.c
+..\..\glib\gfileutils.c(397): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\glib\gfileutils.c(629): warning C4068: unknown pragma
+..\..\glib\gfileutils.c(630): warning C4068: unknown pragma
+..\..\glib\gfileutils.c(647): warning C4068: unknown pragma
+..\..\glib\gfileutils.c(1677): warning C4267: 'initializing': conversion from 'size_t' to 'gint', possible loss of data
+  gerror.c
+  genviron.c
+..\..\glib\genviron.c(56): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+..\..\glib\genviron.c(161): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+..\..\glib\genviron.c(625): warning C4267: '+=': conversion from 'size_t' to 'gint', possible loss of data
+..\..\glib\genviron.c(631): warning C4267: '+=': conversion from 'size_t' to 'gint', possible loss of data
+  gdir.c
+..\..\glib\gdir.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+f:\workspace\glib-2.56.0\build\win32\dirent\dirent.c(213): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+  gdatetime.c
+..\..\glib\gdatetime.c(2898): warning C4267: '=': conversion from 'size_t' to 'guint', possible loss of data
+  gdate.c
+..\..\glib\gdate.c(2211): warning C4267: 'function': conversion from 'size_t' to 'guint', possible loss of data
+..\..\glib\gdate.c(2502): warning C4267: 'function': conversion from 'size_t' to 'guint', possible loss of data
+..\..\glib\gdate.c(2504): warning C4267: 'function': conversion from 'size_t' to 'guint', possible loss of data
+..\..\glib\gdate.c(2582): warning C4068: unknown pragma
+..\..\glib\gdate.c(2583): warning C4068: unknown pragma
+..\..\glib\gdate.c(2696): warning C4068: unknown pragma
+  gdataset.c
+..\..\glib\gdataset.c(233): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gdataset.c(270): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\gdataset.c(1147): warning C4018: '<': signed/unsigned mismatch
+  gconvert.c
+f:\workspace\glib-2.56.0\glib\win_iconv.c(831): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+f:\workspace\glib-2.56.0\glib\win_iconv.c(858): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+f:\workspace\glib-2.56.0\glib\win_iconv.c(909): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+f:\workspace\glib-2.56.0\glib\win_iconv.c(1131): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\..\glib\gconvert.c(1518): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  gchecksum.c
+  gcharset.c
+..\..\glib\gcharset.c(72): warning C4090: 'function': different 'const' qualifiers
+..\..\glib\gcharset.c(76): warning C4090: 'function': different 'const' qualifiers
+  gbytes.c
+  gbookmarkfile.c
+  Generating Code...
+f:\workspace\glib-2.56.0\glib\gdir.c(194): warning C4716: 'g_dir_new_from_dirp': must return a value
+f:\workspace\glib-2.56.0\glib\giochannel.c(285): warning C4715: 'g_io_error_get_from_g_error': not all control paths return a value
+  Compiling...
+  gbitlock.c
+..\..\glib\gbitlock.c(435): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+..\..\glib\gbitlock.c(490): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+..\..\glib\gbitlock.c(529): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  gbase64.c
+..\..\glib\gbase64.c(453): warning C4267: '=': conversion from 'size_t' to 'gint', possible loss of data
+  gbacktrace.c
+  gatomic.c
+..\..\glib\gatomic.c(603): warning C4090: 'initializing': different 'volatile' qualifiers
+..\..\glib\gatomic.c(603): warning C4090: 'initializing': different 'const' qualifiers
+..\..\glib\gatomic.c(613): warning C4090: 'initializing': different 'volatile' qualifiers
+..\..\glib\gatomic.c(624): warning C4090: 'function': different 'volatile' qualifiers
+  gasyncqueue.c
+  garray.c
+..\..\glib\garray.c(776): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\garray.c(1162): warning C4018: '>': signed/unsigned mismatch
+..\..\glib\garray.c(1175): warning C4018: '<': signed/unsigned mismatch
+..\..\glib\garray.c(1433): warning C4018: '<': signed/unsigned mismatch
+  gthread-deprecated.c
+  grel.c
+  gcompletion.c
+  gcache.c
+  gallocator.c
+  Generating Code...
+  localcharset.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(F:\workspace\glib-2.56.0\win32\vs15\Debug\x64\bin\glib.dll) does not match the Linker's OutputFile property value (F:\workspace\glib-2.56.0\win32\vs15\Debug\x64\bin\glib-2.0-0.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(glib) does not match the Linker's OutputFile property value (glib-2.0-0). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library F:\workspace\glib-2.56.0\win32\vs15\Debug\x64\bin\glib-2.0.lib and object F:\workspace\glib-2.56.0\win32\vs15\Debug\x64\bin\glib-2.0.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+gregex.obj : error LNK2019: unresolved external symbol __imp_pcre_compile2 referenced in function regex_compile
+gregex.obj : error LNK2019: unresolved external symbol __imp_pcre_config referenced in function g_regex_new
+gregex.obj : error LNK2019: unresolved external symbol __imp_pcre_dfa_exec referenced in function g_regex_match_all_full
+gregex.obj : error LNK2019: unresolved external symbol __imp_pcre_exec referenced in function g_match_info_next
+gregex.obj : error LNK2019: unresolved external symbol __imp_pcre_fullinfo referenced in function g_regex_get_max_backref
+gregex.obj : error LNK2019: unresolved external symbol __imp_pcre_get_stringnumber referenced in function g_regex_get_string_number
+gregex.obj : error LNK2019: unresolved external symbol __imp_pcre_get_stringtable_entries referenced in function get_matched_substring_number
+gregex.obj : error LNK2019: unresolved external symbol __imp_pcre_study referenced in function g_regex_new
+gregex.obj : error LNK2001: unresolved external symbol __imp_pcre_free
+F:\workspace\glib-2.56.0\win32\vs15\Debug\x64\bin\glib-2.0-0.dll : fatal error LNK1120: 9 unresolved externals
